@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_rsTourTypes" value="name:ID;datatype:,name:TourType;datatype:,name:TypeDescription;datatype:,name:Online;datatype:" />
+	<infoitem key="UD_rsTours" value="name:ID;datatype:,name:tourName;datatype:,name:tourPrice;datatype:,name:tourLocation;datatype:,name:tourDate;datatype:,name:tourDescription;datatype:,name:tourSeatingChart;datatype:,name:tourImage;datatype:,name:TypeID;datatype:,name:online;datatype:" />
+	<infoitem key="MMGuideCount" value="3" />
+	<infoitem key="MMGuide0" value="vertical: template 114 px" />
+	<infoitem key="MMGuide1" value="vertical: template 114 px" />
+	<infoitem key="MMGuide2" value="vertical: template 114 px" />
+</info>

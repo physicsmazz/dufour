@@ -1,0 +1,342 @@
+@charset "utf-8";
+
+body {
+    background: gray;
+    margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+    padding: 0;
+    text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+    /*color: #FFFFFF;*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.oneColFixCtr #container {
+    background-color: #7ABAF2;
+    width: 770px; /* the auto margins (in conjunction with a width) center the page */
+    text-align: left;
+    position: relative;
+    font-size: 12px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#container #header {
+    height: 150px;
+}
+
+#container #mainContent {
+    width: 100%;
+    padding: 0;
+    float: left;
+    background-color: #7ABAF2;
+    /*background-image: url(/dufour/images/background.gif);*/
+    background-repeat: repeat-y;
+    padding-bottom: 10px;
+}
+
+#container #nav {
+    margin: 0;
+    height: 37px;
+    width: 770px;
+    background-color: #7AB9EF;
+    float: left;
+}
+#container #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 10px;
+}
+
+#container #nav li {
+     float: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 10pt;
+     text-align: center;
+    width: 95px;
+    height: 37px;
+    font-weight: bold;
+}
+#nav li a:link, #nav li a:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding-top: 0.2em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    background-image: url(images/button8.png);
+    background-repeat: no-repeat;
+    height: 40px;
+}
+
+#nav li a:hover, #nav li a:active {
+    background-image: url(images/button8_over2.png);
+    background-repeat: no-repeat; /*color:#6BB445;*/
+}
+#nav li a.current:link, #nav li a.current:visited {
+    background-image: url(images/button8_over2.png);
+    background-repeat: no-repeat; /*color:#6BB445;*/
+}
+.oneColFixCtr #container #nav #home {
+    background-repeat: no-repeat;
+}
+.oneColFixCtr #container #nav #tours {
+}
+#tourDisplay {
+    height: 150px;
+    width: 500px;
+    border: medium solid #00FF33;
+    overflow: auto;
+}
+
+.oneColFixCtr #container #sidebar {
+    width: 174px;
+    float: right;
+    position: absolute;
+    left: 584px;
+    top: 200px;
+    height: auto;
+}
+#sidebar #sidebarAdmin {
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    top: 30px;
+    right: -18px;
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 150px;
+}
+
+#container #sidebar #testimonials {
+    background-color: #FFFFFF;
+    width: 172px;
+    overflow: auto;
+    height: 300px;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+    -margin: 1px;
+}
+#container #sidebar #contact {
+    float: left;
+    width: 182px;
+    margin: 20px 2px 2px 2px;
+    height: 320px;
+    padding: 0;
+}
+
+.oneColFixCtr #container #mainContent #tourList {
+    border: medium none #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.oneColFixCtr #container #sidebar #tourList cfoutput {
+    display: block;
+    float: left;
+}
+
+.oneColFixCtr #container #mainContent #displayTour {
+    background-color: #99CC00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.oneColFixCtr #container #tourNav {
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    width: 168px;
+    margin-right: -18px;
+    display: inline;
+    height: auto;
+    border: thin;
+}
+
+#container #sidebar #tourNav a {
+    background: #ffffff;
+    display: block;
+    width: 140px;
+    list-style: none;
+    text-decoration: none;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+#container #sidebar #tourNav a:hover {
+    background: #00CCFF
+}
+
+#tourHeader {
+    position: relative;
+    height: 100px;
+    width: 75%;
+    float: left;
+}
+
+#tourBody {
+    margin: 10px;
+    height: 120px;
+    width: 500px;
+    position: relative;
+    left: 30px;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    background-image: url(/dufour/images/tour_bg2.gif);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#busimage {
+    margin: 10px;
+}
+#busimage img{
+    margin: 0 auto;
+    display: block
+}
+
+#mainContent #hometext {
+    padding: 10px 0 10px 0;
+    height: 220px;
+}
+
+#mainContent #insidebus {
+    height: auto;
+    width: 530px;
+    padding: 10px;
+    margin: 0 0 0 100px;
+}
+
+#mainContent #insidebus img {
+    padding: 10px;
+}
+
+#mainContent #sbcharter {
+    padding: 20px;
+    float: left;
+    width: 540px;
+}
+
+#footer {
+    background-color: #FFFFFF;
+    clear: both;
+    float: left;
+    height: 20px;
+    width: 770px;
+}
+
+#popup {
+    background-color: #00CC00;
+    height: 300px;
+    width: 300px;
+    border: thin solid #000000;
+    position: static;
+    top: 250px;
+    right: 250px;
+}
+
+#toursRepeat {
+    width: 380px;
+    float: right;
+    padding-top: 8px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    z-index: 1;
+}
+
+#image {
+    float: left;
+    position: relative;
+    height: auto;
+    width: 110px;
+    top: 10px;
+    left: 10px;
+}
+
+#toursRepeatDetails {
+    width: 380px;
+    position: relative;
+    padding-top: 8px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    line-height: 10px;
+    background-color: #FFCC00;
+    z-index: 0;
+}
+
+.oneColFixCtr #apDiv1 {
+    float: left;
+    height: 450px;
+    width: 570px;
+}
+
+.oneColFixCtr #container #mainContent #filler {
+    float: left;
+    height: 120px;
+    width: 500px;
+    clear: left;
+}
+
+.oneColFixCtr #container #mainContent #tourBody #toursRepeat #tourField {
+    width: 98%;
+}
+#sbcharter2 p{
+    font-size: 16px;
+}
+
+#imgs {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    background-color: #FFF;
+    width: 90%;
+    z-index: 4;
+}
+
+.img {
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.headerRow {
+    height: 40px;
+    width: 100%;
+    background: #ddd;
+}
+
+.closeBtn {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    backgrounD: #999;
+    vertical-align: middle;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+}
+#tourUpdate{
+    font-size: 22px;
+    margin: 20px;
+    background: #fff;
+    padding: 25px;
+}
